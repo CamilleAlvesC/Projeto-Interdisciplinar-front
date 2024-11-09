@@ -1,0 +1,101 @@
+.header-cadastro{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  background-color: #ffff;
+}
+
+header .ir-login{
+  display: flex;
+  align-items: center;
+  width: 25%;
+  justify-content: space-between;
+  position: relative;
+  left: 30%;
+}
+header .ir-login button{
+  width: 40%;
+}
+
+h2 {
+  text-align: center;
+  color: #0E9FE7;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+
+button {
+  padding: 10px;
+  background-color: #0E9FE7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-cadastro:hover{
+  background-color: #0c86c4;
+}
+
+button:disabled {
+  background-color: #aaa;
+}
+
+.mensagem{
+  color: crimson;
+}
+
+p {
+  text-align: center;
+}
+
+#selectParoquia {
+  padding: 10px 15px; 
+  border: 1px solid #aaa; 
+  border-radius: 8px;
+  outline: none;
+  -webkit-appearance: none; 
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer; 
+}
+
+#selectParoquia:focus {
+  border-color: #007BFF;
+  background-color: #fff;
+}
+
+@media (min-width: 800px) {
+
+  .input-group input{
+    width: 400px !important;
+  }
+
+  #selectParoquia{
+    width:400px
+  }
+
+  .auth-container form{
+    display: flex;
+    align-items: center !important;
+  }
+
+  .btn-cadastro{
+    width: 400px !important;
+  }
+
+}

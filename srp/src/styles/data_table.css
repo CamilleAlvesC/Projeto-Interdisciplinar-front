@@ -1,0 +1,47 @@
+/* Estilos para o contêiner da tabela */
+.table-container {
+    margin: 20px;
+}
+
+/* Estilos para a tabela */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Estilos para as células do cabeçalho */
+.table-header {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Estilos para as células da tabela */
+.table-body td {
+    padding: 10px;
+    text-align: left;
+    border-top: 1px solid #ddd;
+}
+
+/* Estilos para as linhas alternadas da tabela */
+.table-body tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Efeito de hover para as linhas da tabela */
+.table-body tr:hover {
+    background-color: #e2e6ea;
+}
+
+/* Estilos para o cabeçalho da página */
+.header {
+    margin-bottom: 30px;
+}

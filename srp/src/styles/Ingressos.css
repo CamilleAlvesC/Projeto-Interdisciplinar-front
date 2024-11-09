@@ -1,0 +1,33 @@
+/* Exemplo de estilos */
+.container {
+    padding: 20px;
+  }
+  
+  .ingressos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card-ingresso {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .card-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-btn {
+    background-color: blue;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: red;
+    color: white;
+  }
+  

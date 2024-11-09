@@ -1,0 +1,126 @@
+  .auth-container {
+      padding: 30px 40px;
+      border-radius: 8px;
+      margin: 100px 50px 50px 50px;
+  }
+  
+  .top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .logo-form{
+    background-color: #0E9FE7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0E9FE7;
+  }
+  
+
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(118, 144, 241, 1);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  button:hover {
+    background-color: #007BFF;
+  }
+  
+  .toggle-link {
+    color: #007BFF;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .toggle-link:hover {
+    color: #0056b3;
+  }
+  
+  .toggle-button{
+    background-color: #b4dff5;
+    color: #333;
+    border: #333 0.5px solid;
+  }
+
+  .toggle-button:hover{
+    color: #ffff;
+  }
+
+  textarea{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgba(237, 242, 248, 1);
+    color: #333;
+  }
+
+  input{
+    width: 100%;
+  }
+
+  .login-cadastro{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    justify-content: space-between;
+    position: absolute;
+    right: 10%;
+    gap: 30px;
+}
+
+.login-cadastro button{
+    width: 100px;
+    background-color: #b4dff5;
+    border: #0E9FE6 solid 1px;
+    color: #666666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=button],input[type=submit]{
+  background-color: #b4dff5 !important;
+}
+
+.login-cadastro .cadastro{
+    background-color: #0E9FE7;
+    color: #ffff;
+}

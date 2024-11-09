@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "placa": "ABC1234",
+      "marca": "Volkswagen",
+      "modelo": "Executivo",
+      "ano": "2020",
+      "assentos": "40",
+      "motorista": {
+        "nome": "João da Silva",
+        "cpf": "12345678901",
+        "rg": "123456789",
+        "dataNascimento": "1980-05-15"
+      }
+    },
+    {
+      "id": 2,
+      "placa": "XYZ5678",
+      "marca": "Mercedes",
+      "modelo": "Leito",
+      "ano": "2019",
+      "assentos": "30",
+      "motorista": {
+        "nome": "Maria Oliveira",
+        "cpf": "09876543210",
+        "rg": "987654321",
+        "dataNascimento": "1985-11-20"
+      }
+    }
+  ]
+  

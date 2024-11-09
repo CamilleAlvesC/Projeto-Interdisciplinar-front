@@ -1,0 +1,67 @@
+.desenvolvedores-container {
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 2rem;
+  }
+  
+  .dev-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Define 3 colunas */
+  grid-auto-rows: auto; /* Deixa as linhas automáticas */
+    gap: 1.5rem;
+    justify-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .dev-card {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 5px 4px 6px 4px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    height: 20dvh;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .dev-img {
+    border-radius: 10px;
+    width: 40%;
+    object-fit: cover;
+    height: auto;
+  }
+  
+.info-dev{
+    line-height: 80%;
+    align-items: self-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-dev h3 {
+    text-align: left;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    
+  }
+  
+  .info-dev p {
+    text-align: left;
+    color: #007bff;
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+  
+  .dev-links a {
+    margin: 0 0.5rem;
+    color: #007bff;
+  }
+  
+  .dev-links a:hover {
+    color: #0056b3;
+  }
+  

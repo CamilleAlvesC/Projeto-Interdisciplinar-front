@@ -1,0 +1,31 @@
+.cadastro-btn {
+  background-color: #0E9FE6;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.cadastro-btn:hover {
+  background-color: #007BFF;
+  color: #ffffff;
+}
+
+.cadastro p{
+  color: #0E9FE7;
+}
+
+@media (min-width: 800px) {
+
+  .input-group input{
+    width: 400px !important;
+  }
+
+  .form-login button[type="submit"]{
+    width: 400px !important;
+  }
+
+}

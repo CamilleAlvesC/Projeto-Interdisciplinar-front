@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "titulo": "Ingresso para o Show A",
+    "dataIda": "2024-10-20",
+    "destinoFinal": "Local do Show",
+    "preco": 150.00
+  },
+  {
+    "id": 2,
+    "titulo": "Ingresso para o Show B",
+    "dataIda": "2024-11-15",
+    "destinoFinal": "Local do Show B",
+    "preco": 120.00
+  }
+]

@@ -1,0 +1,6 @@
+[
+    { "id": 1, "nome": "João Silva", "email": "joao@exemplo.com", "funcao": "Coordenador de Projetos" },
+    { "id": 2, "nome": "Maria Oliveira", "email": "maria@exemplo.com", "funcao": "Coordenadora de Marketing" },
+    { "id": 3, "nome": "Carlos Souza", "email": "carlos@exemplo.com", "funcao": "Coordenador de Vendas" }
+  ]
+  

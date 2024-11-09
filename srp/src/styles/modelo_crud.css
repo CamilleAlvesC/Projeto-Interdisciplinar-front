@@ -1,0 +1,18 @@
+/*cards*/
+.new-user-top-span{
+    display: flex;
+    gap:10
+  }
+  
+  .cards-bottom{
+    display: flex;
+    margin: 0px 600px 0px 600px;
+  }
+
+  @media (max-width: 1500px) {
+    
+    .cards-bottom{
+        margin: 0px 50px 0px 50px;
+      }
+
+  }
